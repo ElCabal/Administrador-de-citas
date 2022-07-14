@@ -1,0 +1,26 @@
+.Formulario {
+  background-color: white;
+  padding: 1rem;
+  display: grid;
+  gap: 1rem;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.Formulario input {
+  border-radius: 5px;
+  margin-top: 2px;
+  padding: 5px;
+}
+
+.ButtonSubmit {
+  padding: 10px;
+  background-color: #e0e7ff;
+  border: none;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 600px) {
+  .Formulario {
+  }
+}

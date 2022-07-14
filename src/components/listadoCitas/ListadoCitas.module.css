@@ -1,0 +1,11 @@
+.ListaCitas {
+  height: 100vh;
+}
+
+@media screen and (min-width: 600px) {
+  .ListaCitas {
+    padding-right: 1rem;
+    overflow-y: scroll;
+    margin: 10px;
+  }
+}

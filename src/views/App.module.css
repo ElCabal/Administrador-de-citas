@@ -1,0 +1,21 @@
+.App {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  gap: 5rem;
+}
+.Container {
+  display: grid;
+  gap: 2rem;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 600px) {
+  .Container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
