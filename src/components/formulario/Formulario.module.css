@@ -7,6 +7,16 @@
   width: 300px;
 }
 
+.Input {
+  display: flex;
+  flex-direction: column;
+}
+
+.Textarea {
+  display: flex;
+  flex-direction: column;
+}
+
 .Formulario input {
   border-radius: 5px;
   margin-top: 2px;
